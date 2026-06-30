@@ -1,12 +1,22 @@
+#Dependencies
 node_modules/
-.env
-
 client/node_modules/
 server/node_modules/
 
+#env
+.env
+server/.env
+client/.env
+
+#build files
 dist/
 build/
+client/dist
+server/dist
 
+#Ide
 .vscode/
 
+#log$logs
 *.log
+*.logs
