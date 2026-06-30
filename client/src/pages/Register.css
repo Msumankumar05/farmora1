@@ -1,0 +1,13 @@
+/* Register-specific overrides — shared auth styles live in index.css and Login.css */
+
+/* Extra bottom padding for the longer register form */
+.auth-page .auth-card {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (max-width: 968px) {
+  .auth-banner {
+    display: none;
+  }
+}
