@@ -5,7 +5,7 @@ const About = () => {
   const team = [
     // { name: 'Arjun Singh', role: 'Head of Operations', image: '👨‍💼', bio: '10+ years in supply chain management' },
     // { name: 'Neha Patel', role: 'Quality Control', image: '👩‍🔬', bio: 'Ensuring only the best reaches you' },
-    { name: 'Makoju SK', role: 'Technology Lead - Founder & CEO', image: '👨‍💻', bio: 'Building the future of food delivery' },
+    { name: 'Makoju SK', role: '', image: '👨‍💻', bio: 'Building the future of food delivery' },
     { name: 'Deepak Ranjan', role: '', image: '👨‍💼', bio: 'Passionate about sustainable agriculture' },
   ];
 
