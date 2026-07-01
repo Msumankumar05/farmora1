@@ -1,5 +1,6 @@
 // Base API URL - supports VITE_API_URL env variable, otherwise falls back to local proxy /api
 const BASE_URL = import.meta.env.VITE_API_URL || '/api';
+console.log("BASE_URL =", BASE_URL);
 
 /**
  * Core fetch wrapper — attaches JWT token automatically and normalises errors.
