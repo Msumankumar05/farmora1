@@ -19,7 +19,7 @@ const Hero = () => {
             <Link to="/products" className="btn-primary">Shop Now</Link>
             <Link to="/about" className="btn-secondary">Learn More</Link>
           </div>
-          <div className="hero-stats">
+          {/* <div className="hero-stats">
             <div className="stat-item">
               <span className="stat-number">500+</span>
               <span className="stat-label">Happy Customers</span>
@@ -32,7 +32,7 @@ const Hero = () => {
               <span className="stat-number">24/7</span>
               <span className="stat-label">Support Available</span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="hero-image">
           <img 
