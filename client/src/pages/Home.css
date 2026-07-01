@@ -169,6 +169,20 @@
   .newsletter-input{
     width:100%;
   }
+
+  .features-grid{
+    grid-template-columns:1fr;
+    gap:1.25rem;
+  }
+
+  .testimonials-grid{
+    grid-template-columns:1fr;
+    gap:1.25rem;
+  }
+
+  .feature-card{
+    padding:1.5rem;
+  }
 }
 
 @media (max-width:576px){
@@ -180,11 +194,12 @@
   }
 
   .categories-section,
+  .products-section,
   .featured-section,
   .why-choose-section,
   .testimonials-section,
   .newsletter-section{
-    padding:3rem 0;
+    padding:2.5rem 0;
   }
 
   .section-title{
@@ -193,5 +208,50 @@
 
   .section-description{
     font-size:.95rem;
+  }
+
+  .view-all-container .btn-secondary{
+    padding:10px 24px;
+    font-size:0.9rem;
+  }
+}
+
+@media (max-width:480px){
+
+  .products-grid{
+    grid-template-columns:1fr;
+    gap:1.25rem;
+  }
+
+  .categories-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:0.75rem;
+  }
+
+  .section-title{
+    font-size:1.5rem;
+  }
+
+  .section-description{
+    font-size:.9rem;
+    margin-bottom:1.5rem;
+  }
+
+  .feature-card{
+    padding:1.25rem;
+    border-radius:14px;
+  }
+
+  .feature-icon{
+    font-size:2.4rem;
+    margin-bottom:0.6rem;
+  }
+
+  .feature-card h3{
+    font-size:1rem;
+  }
+
+  .feature-card p{
+    font-size:0.9rem;
   }
 }

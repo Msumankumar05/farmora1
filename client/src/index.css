@@ -138,3 +138,25 @@ img {
 @keyframes btnSpin {
   to { transform: rotate(360deg); }
 }
+
+/* ─── Global Mobile Responsive ───────────────────────────────────────── */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .btn-primary {
+    padding: 10px 24px;
+    font-size: 0.92rem;
+  }
+
+  .btn-secondary {
+    padding: 10px 24px;
+    font-size: 0.92rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
