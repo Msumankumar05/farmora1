@@ -1,5 +1,5 @@
-// Base API URL - Vite proxy forwards /api/* to http://localhost:5000
-const BASE_URL = '/api';
+// Base API URL - supports VITE_API_URL env variable, otherwise falls back to local proxy /api
+const BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 /**
  * Core fetch wrapper — attaches JWT token automatically and normalises errors.
