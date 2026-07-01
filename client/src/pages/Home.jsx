@@ -140,7 +140,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="testimonials-section">
+      {/* <section className="testimonials-section">
         <div className="container">
           <h2 className="section-title">
             What Our <span>Customers Say</span>
@@ -151,7 +151,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
