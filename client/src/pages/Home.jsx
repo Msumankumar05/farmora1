@@ -16,32 +16,32 @@ const categories = [
   { name: "Grains", icon: "🌾", count: 28 },
 ];
 
-const testimonials = [
-  {
-    id: 1,
-    name: "Priya Sharma",
-    role: "Regular Customer",
-    content:
-      "Farmora has completely changed how I shop for groceries. The freshness is unmatched!",
-    rating: 5,
-  },
-  {
-    id: 2,
-    name: "Rahul Verma",
-    role: "Health Enthusiast",
-    content:
-      "The organic produce from Farmora is exceptional. I trust their quality completely.",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Anita Patel",
-    role: "Home Chef",
-    content:
-      "I love the convenience and quality. Farmora makes healthy eating so easy!",
-    rating: 5,
-  },
-];
+// const testimonials = [
+//   {
+//     id: 1,
+//     name: "Priya Sharma",
+//     role: "Regular Customer",
+//     content:
+//       "Farmora has completely changed how I shop for groceries. The freshness is unmatched!",
+//     rating: 5,
+//   },
+//   {
+//     id: 2,
+//     name: "Rahul Verma",
+//     role: "Health Enthusiast",
+//     content:
+//       "The organic produce from Farmora is exceptional. I trust their quality completely.",
+//     rating: 5,
+//   },
+//   {
+//     id: 3,
+//     name: "Anita Patel",
+//     role: "Home Chef",
+//     content:
+//       "I love the convenience and quality. Farmora makes healthy eating so easy!",
+//     rating: 5,
+//   },
+// ];
 
 const Home = () => {
   const [homeProducts, setHomeProducts] = useState([]);
