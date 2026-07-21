@@ -48,7 +48,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Root Route
 app.get("/", (req, res) => {
-  res.send("Farmora API is running 🚀");
+  res.send("Farmora API is running");
 });
 
 // Health Check
